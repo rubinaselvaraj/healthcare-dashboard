@@ -1,0 +1,51 @@
+.anatomy-section {
+  background: white;
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 1rem;
+}
+
+.anatomy-card {
+  position: relative;
+  text-align: center;
+}
+
+.body-image {
+  width: 200px;
+}
+
+.health-label {
+  position: absolute;
+  background: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.heart {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: green;
+}
+
+.lungs {
+  top: 35%;
+  right: 10%;
+  color: red;
+}
+
+.teeth {
+  bottom: 25%;
+  left: 20%;
+  color: #f59e0b;
+}
+
+.bone {
+  bottom: 15%;
+  right: 15%;
+  color: #6366f1;
+}
